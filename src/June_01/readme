@@ -1,0 +1,31 @@
+Method overloading
+ same name with different parameters
+ improves the readability of the  code
+
+
+Class
+ class have properties
+ it have their own behaviour
+ in java we call functions as methods
+ methods - set of block of statements which perform specific task
+ we can call methods whenever we need
+
+ Syntax for method
+  Access specifier (public,private)
+  return_type method_name(){
+
+  -----
+  return x ;
+
+  }
+
+
+
+June_01.Constructor
+ constructor is special type of method()
+ it doesnot have any return value not even a void
+ it have same as a class name
+
+Types of June_01.Constructor
+ Default constructor ---- doesnt have any parameters/arguments
+ Parameterized constructor  ---- have parameters/arguments
