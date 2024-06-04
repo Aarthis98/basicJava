@@ -23,6 +23,11 @@ import java.util.Scanner;
 
 
 public class CalculatorClass {
+    public static void modulos(int a, int b){
+        int result = a % b;
+        System.out.println(a + " % " + b + " = " +result);
+
+    }
     public static void main(String[] args) {
 
             System.out.println("********************");
@@ -59,7 +64,7 @@ public class CalculatorClass {
                        calc.divide(num1,num2);;
                         break;
                     case 5:
-                       calc.modulos(num1,num2);
+                       modulos(num1,num2);
                         break;
                     default:
                         break;
