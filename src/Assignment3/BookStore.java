@@ -8,7 +8,7 @@ public class BookStore {
     double quantity;
     double totalPrice;
 
-    public BookStore(String title, String author, double price, int quantity) {
+    public BookStore() {
         this.title = title;
         this.author = author;
         this.price = price;
@@ -22,7 +22,7 @@ public class BookStore {
        // System.out.println();
 
     }
-    public void totalCost(){
+    public void totalCost(double price, double quantity) {
         double totalCost = quantity * price;
         System.out.println("Total Cost : " + totalCost);
         System.out.println();
@@ -30,4 +30,7 @@ public class BookStore {
     public void cart(){
 
     }
+
+
+
 }
