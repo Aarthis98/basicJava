@@ -2,7 +2,7 @@ package June_11;
 
 import java.util.Scanner;
 
-public class Strings {
+public class StringsCharAt {
     public static void main(String[] args) {
 
         // reverse the string using charAt
