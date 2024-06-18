@@ -24,5 +24,14 @@ public class StringMethods {
         String trim =s1.trim();
         System.out.println("Trim : " +trim);
 
+        String s2 = "Java String Session";
+        String substring = s2.substring(2);
+        System.out.println("SubString : " +substring);
+        String substring1 = s2.substring(2,8);
+        System.out.println("SubString : " +substring1);
+        String substring2 = s2.substring(substring.indexOf("Session"));
+        System.out.println("SubString : " +substring2);
+
+
     }
 }
