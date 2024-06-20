@@ -1,4 +1,4 @@
-package June_18;
+package June_18.Inheritance;
 
 public class Address {
     String street;

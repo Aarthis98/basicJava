@@ -1,4 +1,4 @@
-package June_18;
+package June_18.Inheritance;
 
 public class Employee {
 
@@ -23,6 +23,7 @@ public class Employee {
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
                 ", designation='" + designation + '\'' +
+                ", address=" + address +
                 '}';
     }
 }

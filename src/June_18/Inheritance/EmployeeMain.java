@@ -1,4 +1,4 @@
-package June_18;
+package June_18.Inheritance;
 
 public class EmployeeMain {
     public static void main(String[] args) {
