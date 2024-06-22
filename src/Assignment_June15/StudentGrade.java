@@ -13,7 +13,7 @@ public class StudentGrade {
         this.marks = marks;
     }
 
-   /* public int getAverageMarks(){
+   /* public static int getAverageMarks(){
         if (marks.length == 0) {
             return 0;
         }
@@ -22,9 +22,9 @@ public class StudentGrade {
             sum += mark;
         }
         return sum / marks.length;
-    }
+    }*/
 
-    */
+
 
     @Override
     public String toString() {

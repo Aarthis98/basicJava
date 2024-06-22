@@ -35,11 +35,15 @@ public class StudentMethods {
         return lowestGrade;
     }
     public static void printStudentDetails() {
+        //studentCount=0;
         System.out.println("MarkSheet of the Students ");
         for (int i = 0; i < studentCount; i++) {
+
+           // studentCount++;
+           // System.out.println(studentCount);
             System.out.println(students[i]);
-            System.out.println(" Highest Grade : " + getHighestGrade());
-            System.out.println(" Lowest Grade : " + getLowestGrade());
+
+          //  System.out.println("Average Grade : " + StudentGrade.getAverageMarks());
         }
     }
 }
