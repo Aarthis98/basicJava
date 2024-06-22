@@ -1,6 +1,4 @@
-package June_15.Inheritance;
-
-import June_15.CarVehicle;
+package June_15;
 
 public class VehicleMain {
     public static void main(String[] args) {
