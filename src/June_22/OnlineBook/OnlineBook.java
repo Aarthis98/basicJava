@@ -1,6 +1,6 @@
-package June_22;
+package June_22.OnlineBook;
 
-public class OnlineBook extends Book{
+public class OnlineBook extends Book {
     private  int length;
 
     public OnlineBook(int numOfPages, String author, String name, int length) {

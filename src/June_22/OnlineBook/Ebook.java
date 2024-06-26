@@ -1,4 +1,4 @@
-package June_22;
+package June_22.OnlineBook;
 
 public class Ebook extends AudioBook {
     public Ebook(int numOfPages, String author, String name, int bookcount) {

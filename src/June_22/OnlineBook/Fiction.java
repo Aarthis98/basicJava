@@ -1,4 +1,6 @@
-package June_22;
+package June_22.OnlineBook;
+
+
 
 public class Fiction extends Novel {
 

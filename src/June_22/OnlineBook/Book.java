@@ -1,4 +1,4 @@
-package June_22;
+package June_22.OnlineBook;
 
 public class Book {
     private  int numOfPages;

@@ -1,6 +1,7 @@
-package June_22;
+package June_22.OnlineBook;
 
-public class NonFiction extends Novel{
+
+public class NonFiction extends Novel {
     public NonFiction(int numOfPages, String author, String name) {
         super(numOfPages, author, name);
     }

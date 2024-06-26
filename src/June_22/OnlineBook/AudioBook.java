@@ -1,6 +1,6 @@
-package June_22;
+package June_22.OnlineBook;
 
-public class AudioBook extends Book{
+public class AudioBook extends Book {
     private int bookcount;
 
     public AudioBook(int numOfPages, String author, String name, int bookcount) {

@@ -1,6 +1,6 @@
-package June_22;
+package June_22.OnlineBook;
 
-public class Novel extends Book{
+public class Novel extends Book {
 
    // private int type;
 
