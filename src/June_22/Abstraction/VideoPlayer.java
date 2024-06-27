@@ -31,7 +31,16 @@ public class VideoPlayer extends MediaDevice{
         return duration;
     }
 
+
     public void setDuration(int duration) {
         this.duration = duration;
+    }
+
+    @Override
+    public String toString() {
+        return "VideoPlayer{" +
+                "videoTitle='" + videoTitle + '\'' +
+                ", duration=" + duration +
+                '}';
     }
 }
