@@ -1,4 +1,4 @@
-package July_02;
+package July_02.ErrorCreation;
 
 public class Thread {
     public static void main(String[] args) {
