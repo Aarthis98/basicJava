@@ -15,13 +15,16 @@ public class Student {
         this.grades = grades;
     }
 
+
     public double calculateAvgGrade(){
         double sum = 0;
-        for (double grade : grades) {
-            sum += grade;
+        for (int i = 0; i < grades.length; i++) {
+            sum += grades[i];
         }
         return sum / grades.length;
     }
+
+
     public void displayInfo(){
         System.out.println("\nStudent Details");
         System.out.println("Name: " + name);
