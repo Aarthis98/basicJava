@@ -10,13 +10,15 @@ public class Main {
 
             store.addBook(new Book("Effective Java", "Joshua Bloch", 45.00, 10));
             store.addBook(new Book("Java: The Complete Reference", "Herbert Schildt", 55.00, 5));
+            store.addBook(new Book("C++: The Complete Reference", "Herbert Schildt", 25.00, 15));
+            store.addBook(new Book("Python: The Complete Reference", "Martin C. Brown", 55.00, 25));
+            store.addBook(new Book("GIT Book: The Complete Reference", "Scott Chacon and Ben Straub", 55.00, 20));
 
             boolean exit = false;
             while (!exit) {
                 System.out.println("\n1. List Books\n2. Purchase Book\n3. Exit");
                 int choice = scanner.nextInt();
                 scanner.nextLine();
-
                 switch (choice) {
                     case 1:
                         store.listBooks();
