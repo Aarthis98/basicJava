@@ -33,9 +33,9 @@ public class Main {
                         }else{
                             System.out.println("Members can only purchase a book with offers");
                             System.out.println("Do you want to purchase without membership ?(yes/no)");
-                            boolean membership = scanner.nextBoolean();
-                            System.out.println(membership);
-                            if(membership){
+                            String membership = scanner.next();
+
+                            if(membership.equals("no")|| membership.equals("No") || membership.equals("NO") ){
                                 System.out.println("Purchase from the website and come back...");
                             }
                             else{
