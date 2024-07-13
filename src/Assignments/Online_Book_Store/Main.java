@@ -15,6 +15,7 @@ public class Main {
             store.addBook(new Book("GIT Book: The Complete Reference", "Scott Chacon and Ben Straub", 55.00, 20));
 
             boolean exit = false;
+            System.out.println("\n Purchase the book :");
             while (!exit) {
                 System.out.println("\n1. List Books\n2. Purchase Book\n3. Exit");
                 int choice = scanner.nextInt();
