@@ -10,9 +10,13 @@ public class Sample {
         System.out.println("Please provide your valid email id ");
         String input = sc.nextLine();
 
-       // String input = "user@example.com";
-      //  String regex = "^[\\w.%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}";
-        String email = "[a-zA-Z0-9_\\ -\\.]+@[a-z]+[\\.][com]{3}";
+        // input = "user.123@gmail.com";
+        // input = "user_123@outlook.com";
+        // input = "user.123@hotmail.in";
+       // input = "user@yahoo.com";
+
+
+        String email = "[a-z0-9_\\ -\\.]+@[a-z]+[\\.][com in]{2,3}";
 
         Pattern pattern = Pattern.compile(email);
         Matcher matcher = pattern.matcher(input);
